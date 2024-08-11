@@ -74,7 +74,7 @@ def topsis(input_file, weights, impacts, output_file):
     print(f"Results saved to {output_file}")
     
 
-if __name__=="__main__":
+def main():
     if len(sys.argv) != 5:
         print("Usage: python <program.py> <InputDataFile> <Weights>  <Impacts> <ResultFileName>")
         exit(1)
@@ -84,6 +84,10 @@ if __name__=="__main__":
     impacts = sys.argv[3]
     output_file = sys.argv[4]
         
-    topsis(input_file, weights, impacts, output_file)
+    performance = topsis(input_file, weights, impacts, output_file)
+    print(f"TOPSIS analysis complete. Results saved to {output_file}.")
+    
+if __name__ == "__main__":
+    main()
     
     

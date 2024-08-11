@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: topsis-sidharth-102218069
+Version: 0.1
+Summary: A Python package to perform TOPSIS analysis.
+Home-page: https://github.com/sidharthd7/Topsis-Sidharth-102218069
+Author: Sidharth Dhawan
+Author-email: sidharthdhawan17@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
 ```markdown
 # TOPSIS-Sidharth-102218069
 
