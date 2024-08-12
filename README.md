@@ -7,13 +7,11 @@ This package implements the TOPSIS (Technique for Order of Preference by Similar
 
 ## Installation
 
-To install the package, navigate to the root directory of the project (where `setup.py` is located) and run the following command:
+You can install the package directly from PyPI using the following command:
 
 ```bash
-pip install .
+pip install topsis-sidharth-102218069
 ```
-
-This will install the package locally.
 
 ## Usage
 
@@ -22,13 +20,13 @@ You can use this package from the command line to calculate TOPSIS scores and ra
 ### Command Line
 
 ```bash
-topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
+topsis_69 <InputDataFile> <Weights> <Impacts> <ResultFileName>
 ```
 
 ### Example
 
 ```bash
-topsis 102218069-data.csv "1,1,1,2" "+,+,-,+" 102218069-result.csv
+topsis_69 102218069-data.csv "1,1,1,2" "+,+,-,+" 102218069-result.csv
 ```
 
 ### Parameters

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='topsis-sidharth-102218069',
-    version='0.1',
+    version='0.3',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'topsis=topsis.topsis:main',
+            'topsis_69=topsis.__main__:main',
         ],
     },
     author='Sidharth Dhawan',
