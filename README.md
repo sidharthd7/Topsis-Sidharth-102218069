@@ -1,4 +1,3 @@
-```markdown
 # TOPSIS-Sidharth-102218069
 
 ## Overview
@@ -20,20 +19,20 @@ You can use this package from the command line to calculate TOPSIS scores and ra
 ### Command Line
 
 ```bash
-topsis_69 <InputDataFile> <Weights> <Impacts> <ResultFileName>
+topsis_69 <Weights> <Impacts> <InputDataFile> <ResultFileName>
 ```
 
 ### Example
 
 ```bash
-topsis_69 102218069-data.csv "1,1,1,2" "+,+,-,+" 102218069-result.csv
+topsis_69 "1,1,1,2" "+,+,-,+" 102218069-data.csv 102218069-result.csv
 ```
 
 ### Parameters
 
-- `<InputDataFile>`: Path to the input CSV file containing the data.
 - `<Weights>`: Comma-separated weights for each criterion.
 - `<Impacts>`: Comma-separated impacts for each criterion, where each impact is either `+` (beneficial) or `-` (non-beneficial).
+- `<InputDataFile>`: Path to the input CSV file containing the data.
 - `<ResultFileName>`: The name of the output CSV file where the results will be saved.
 
 ### Sample Input File Format

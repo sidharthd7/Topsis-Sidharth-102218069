@@ -76,12 +76,12 @@ def topsis(input_file, weights, impacts, output_file):
 
 def main():
     if len(sys.argv) != 5:
-        print("Usage: python <program.py> <InputDataFile> <Weights>  <Impacts> <ResultFileName>")
+        print("Usage: python <program.py> <Weights> <Impacts> <InputDataFile> <ResultFileName>")
         exit(1)
     
-    input_file = sys.argv[1]
-    weights = sys.argv[2]
-    impacts = sys.argv[3]
+    input_file = sys.argv[3]
+    weights = sys.argv[1]
+    impacts = sys.argv[2]
     output_file = sys.argv[4]
         
     performance = topsis(input_file, weights, impacts, output_file)
